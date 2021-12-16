@@ -1,0 +1,31 @@
+.header {
+  background-color: #ffff;
+  border-bottom: 1px solid #909090;
+  align-items: center;
+
+  .logoEdu {
+    > img {
+      margin: 20px;
+    }
+  }
+
+  .searchBox {
+    width: 300px;
+    margin-left: 100px;
+    background: url(../../assets/search_black.svg) no-repeat right;
+    padding-right: 25px;
+
+    .searchBar {
+      border-radius: 100px;
+    }
+  }
+
+  .userInfo {
+    margin-left: 300px;
+    > a {
+      text-decoration: none;
+      font-weight: 700;
+      color: #5b105b;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.card {
+  margin-top: 20px;
+  border: 1px solid #ababab;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px #6e6e6e;
+
+  .cardImage {
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 250px;
+    padding: 40px;
+  }
+
+  .cardTitle {
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .cardValue {
+    .cardText {
+      text-align: center;
+      font-weight: 900;
+    }
+
+    .value {
+      text-align: center;
+      color: green;
+    }
+
+    .oldValue {
+      text-align: center;
+      font-size: 11px;
+    }
+  }
+
+  .cardPercent {
+    .percent {
+      color: green;
+    }
+  }
+
+  .cardButton {
+    margin-left: 75px;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #5b105b;
+    border-radius: 20px;
+  }
+}
